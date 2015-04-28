@@ -55,10 +55,10 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Evolutions Bot",
         language: "english",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupCap: 100, // 1-200
+        startupVolume: 5, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
         chatLink: "http://pow.ninja/plugdj/en.json",
